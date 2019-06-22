@@ -271,6 +271,9 @@ h4 {
     max-width: 300px;
 }
 /********About us**********/
+#js-about{
+ padding-top: 7%;
+}
 .about-img {
     background-image: url(img/about-section-bg.jpg);
     height: 85vh;
