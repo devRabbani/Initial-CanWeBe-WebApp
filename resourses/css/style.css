@@ -24,7 +24,7 @@ section {
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/backgroundimg.jpg);
     height: 95vh;
-    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
