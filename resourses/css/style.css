@@ -25,7 +25,7 @@ section {
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/backgroundimg.jpg);
     height: 95vh;
-    
+    clip-path:polygon(0 0,100% 0,100% 80%,0 100%);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -93,8 +93,10 @@ Main Nav
 }
 .linear-logo{display: none;}
 nav{
-    transition: all 0.3 ease-in-out;
-    
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
 }
 /* 
 ========================================== 
@@ -809,6 +811,11 @@ footer p {
 
 /*ANIMATION*/
 
+header,nav{
+    animation-duration: .5s;
+  animation-delay: .1s;
+}
+
 .hero-text-box h1,
 .hero-text-box h2{
   animation-duration: .5s;
@@ -819,6 +826,7 @@ footer p {
   animation-duration: .5s;
   animation-delay: 1s;
 }
+
 
 
 
