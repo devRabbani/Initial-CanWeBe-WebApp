@@ -949,6 +949,23 @@ header,nav{
     transform: translate(-50%,-50%) scale(1);
 }
 
+.popup-des{
+    margin:9% auto;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.btn-videography:link,
+.btn-videography:visited{
+text-decoration: none;
+    color: #c4302b;
+
+}
+
+.btn-videography:hover,
+.btn-videography:active{
+    color: #8e120e;
+}
 
 
 
