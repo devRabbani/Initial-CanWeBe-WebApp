@@ -89,6 +89,7 @@ Main Nav
     float: right;
     list-style: none;
     margin-top: 57px;
+    position: relative;
 }
 .main-nav li {
     display: inline-block;
@@ -101,6 +102,7 @@ Main Nav
     font-size: 85%;
     
 }
+
 .main-nav a:hover,
 .main-nav a:active {
     color: #e67e22;
@@ -112,6 +114,8 @@ nav{
     width: 100%;
     z-index: 999;
 }
+
+
 /* 
 ========================================== 
 Sticky Nav
@@ -955,6 +959,11 @@ header,nav{
     word-spacing: 2px;
 }
 
+.popup-des-web{
+    margin:7% auto;
+    letter-spacing: 1px;
+}
+
 .btn-videography:link,
 .btn-videography:visited{
 text-decoration: none;
@@ -966,7 +975,6 @@ text-decoration: none;
 .btn-videography:active{
     color: #8e120e;
 }
-
 
 
 
