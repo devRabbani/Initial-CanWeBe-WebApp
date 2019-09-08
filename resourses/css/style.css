@@ -332,7 +332,11 @@ h4 {
 #special {
     margin-top: 35%;
 }
+
+
 /**********Projects***********/
+
+
 .container {
     display: flex;
 }
@@ -401,11 +405,18 @@ h4 {
     border-radius: 0.2rem;
     font-size: 80%;
     box-shadow: -8px 10px 20px 0 #2e3d4926;
-    transition: all 0.3s;    
+    transition: all 0.3s;
 }
 .btn-project a:hover{
     background-color:#efefef;
     box-shadow: 0 0 20px 3px #2e3d4926;
+}
+
+.btn-project{
+    position: absolute;
+    bottom: 6%; 
+    left: 0; 
+    right: 0;
 }
 .details {   
     padding: 5%;
