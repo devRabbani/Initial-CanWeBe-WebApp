@@ -385,11 +385,12 @@ h4 {
 /**********Projects***********/
 .responsiveproject{
     display: none;
+    font-size:85%;
 }
 
 .rcard {
-    height: 380px;
-    width: 300px;
+    height: 280px;
+    width: 200px;
     margin-left: 2%;
     border: 4px solid #2fbaba;
     margin-bottom: 2%;
@@ -529,7 +530,6 @@ h4 {
     margin-bottom: 7%;
     margin-top: 5%;
 }
-
 /******CONTACT FORM*******/
 .contact-us {
     background-color: #95a5a6;
