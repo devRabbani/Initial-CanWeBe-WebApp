@@ -1,0 +1,48 @@
+/* 
+big Tablets
+*/
+
+@media only screen and (max-width:1200px){
+    .row{
+      padding: 0 2%;
+    } 
+    header{
+      font-size:17px;
+    }
+    .features {
+      background-size:24%;
+      background-position:right;
+    }
+    .team:after {
+       background-size:20%;
+    }
+  
+}
+
+/* 
+big Tablets from 767px to 1023px 
+*/
+
+@media only screen and (max-width:1023px){
+    
+}
+
+
+
+
+/* 
+Tablets and smartphone from 480px to 767px 
+*/
+
+@media only screen and (max-width:767px){
+    
+}
+
+/* 
+Small phone from 0 to 480px 
+*/
+
+@media only screen and (max-width:480px){
+    
+}
+

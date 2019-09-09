@@ -383,7 +383,7 @@ h4 {
 
 
 /**********Projects***********/
-.our-projects {
+.responsiveproject{
     display: none;
 }
 
@@ -473,7 +473,7 @@ h4 {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
-.btn-project,.btn-rproject a {
+.btn-project a,.btn-rproject a{
     text-decoration: none;
     color: #02b3e4;
     letter-spacing: 2px;
@@ -487,7 +487,7 @@ h4 {
     transition: all 0.3s;
 }
 
-.btn-project,.btn-rproject a:hover {
+.btn-project a:hover,.btn-rproject a:hover {
     background-color: #efefef;
     box-shadow: 0 0 20px 3px #2e3d4926;
 }
@@ -702,6 +702,7 @@ h4 {
     box-shadow: 5px 5px 9px #bebebe;
     border: 4px solid #02b3e4;
     cursor: pointer;
+    z-index: 9;
 }
 
 .team h4 {
