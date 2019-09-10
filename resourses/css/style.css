@@ -383,9 +383,9 @@ h4 {
 
 
 /**********Projects***********/
-.responsiveproject{
+.responsiveproject {
     display: none;
-    font-size:85%;
+    font-size: 85%;
 }
 
 .rcard {
@@ -399,7 +399,7 @@ h4 {
     transition: all 0.3s;
 }
 
-.rcard:hover{
+.rcard:hover {
     box-shadow: -0.8px -0.8px 12px 2px #bebebe;
 }
 
@@ -474,7 +474,8 @@ h4 {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
-.btn-project a,.btn-rproject a{
+.btn-project a,
+.btn-rproject a {
     text-decoration: none;
     color: #02b3e4;
     letter-spacing: 2px;
@@ -488,14 +489,17 @@ h4 {
     transition: all 0.3s;
 }
 
-.btn-project a:hover,.btn-rproject a:hover {
+.btn-project a:hover,
+.btn-rproject a:hover {
     background-color: #efefef;
     box-shadow: 0 0 20px 3px #2e3d4926;
 }
-.btn-rproject a{
-   box-shadow:none;
+
+.btn-rproject a {
+    box-shadow: none;
 }
-.btn-project{
+
+.btn-project {
     position: absolute;
     bottom: 6%;
     left: 0;
@@ -506,7 +510,8 @@ h4 {
     padding: 5%;
 }
 
-.card,rcard p {
+.card,
+rcard p {
     color: #95a5a6;
 }
 
@@ -530,6 +535,7 @@ h4 {
     margin-bottom: 7%;
     margin-top: 5%;
 }
+
 /******CONTACT FORM*******/
 .contact-us {
     background-color: #95a5a6;
