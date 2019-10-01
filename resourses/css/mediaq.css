@@ -266,3 +266,19 @@ Tablets and smartphone from 480px to 767px
     height: 60%;
   }
 }
+@media only screen and (max-width:498px) {
+  #special {
+    top: 15%
+  }
+  .about-us{
+    height: 35rem;
+  }
+}
+@media only screen and (max-width:401px) {
+  #special {
+    top: 17%
+  }
+  .about-us{
+    height: 36.5rem;
+  }
+}
