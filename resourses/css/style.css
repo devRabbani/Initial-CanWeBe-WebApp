@@ -105,6 +105,7 @@ Main Nav
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
+    
 }
 
 .main-nav li a {
@@ -131,6 +132,20 @@ nav {
     z-index: 999;
 }
 
+.mobile-res {
+    float: right;
+    margin-top: 48px;
+    cursor: pointer;
+    display: none;
+}
+
+.sticky-nav .mobile-res{
+    margin-top: 10px;
+}
+.mobile-res ion-icon {
+    font-size: 200%;
+    color: #fff;
+}
 
 /* 
 ========================================== 

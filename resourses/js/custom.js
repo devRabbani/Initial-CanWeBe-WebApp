@@ -32,4 +32,13 @@ $(document).ready(function(){
 });
 $(function(){
   new WOW().init();
+  $('.js-mobile-res').click(function(){
+    var nav=$('.js-main-nav');
+    var icon=$('.js-mobile-res ion-icon');
+    
+    nav.slideToggle(200);
+    if(icon.add
+    
+    
+  });
 });

@@ -233,6 +233,30 @@ Tablets and smartphone from 480px to 767px
     height: 60%;
   }
 
+  .mobile-res {
+    display: inline-block;
+  }
+
+  .main-nav {
+    float: left;
+  }
+
+  .main-nav li {
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    font-size: 110%;
+    padding-top: 10px;
+  }
+  .sticky-nav ion-icon{
+    color: black;
+  }
+  .linear-logo{height: 50px;}
+  .main-nav{display:none;}
 
 }
 
@@ -266,26 +290,30 @@ Tablets and smartphone from 480px to 767px
     height: 60%;
   }
 }
+
 @media only screen and (max-width:498px) {
   #special {
     top: 15%
   }
-  .about-us{
+
+  .about-us {
     height: 35rem;
   }
 }
+
 @media only screen and (max-width:401px) {
   #special {
     top: 17%
   }
-  .about-us{
+
+  .about-us {
     height: 36.5rem;
   }
 }
 
 @media only screen and (max-width:360px) {
-  .hero-text-box{
-    padding:0 9%;
+  .hero-text-box {
+    padding: 0 9%;
     font-size: 90%;
   }
 
