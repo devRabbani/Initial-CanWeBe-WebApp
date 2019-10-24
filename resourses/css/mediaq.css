@@ -282,3 +282,11 @@ Tablets and smartphone from 480px to 767px
     height: 36.5rem;
   }
 }
+
+@media only screen and (max-width:360px) {
+  .hero-text-box{
+    padding:0 9%;
+    font-size: 90%;
+  }
+
+}
