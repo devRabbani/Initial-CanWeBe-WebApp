@@ -316,5 +316,19 @@ Tablets and smartphone from 480px to 767px
     padding: 0 9%;
     font-size: 90%;
   }
+}
 
+ @media only screen and (min-height:700px) {
+ .about-us {
+    height: 40rem;
+  }
+    #special {
+    top: 23%;
+  }
+}
+@media only screen and (max-height:670px) {
+  .about-us-content p{
+    font-size: 84%;
+    padding: 2%;
+  }
 }
