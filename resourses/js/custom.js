@@ -44,6 +44,7 @@ $(document).ready(function () {
     }
     nav.toggleClass('active')
   });
+});
 $(function () {
   new WOW().init();
 });
