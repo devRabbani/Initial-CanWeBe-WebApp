@@ -133,6 +133,7 @@ nav {
     margin-top: 48px;
     cursor: pointer;
     display: none;
+    margin-right: 1%;
 }
 
 .sticky-nav .mobile-res{
