@@ -274,6 +274,9 @@ Tablets and smartphone from 480px to 767px
   #special {
     top: 9.6%
   }
+  video{
+    display: none;
+  }
 }
 
 @media only screen and (max-width:600px) {
