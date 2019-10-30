@@ -29,6 +29,21 @@ $(document).ready(function(){
         }
       });
     }); 
+   
+    /*MOBILE NAV*/
+   $('.js-mobile-res').click(function(){
+     var icon = $('.js-mobile-res i');
+     var nav = $('.main-nav');
+     
+     if (icon.hasClass('ion-md-menu')){
+       icon.addClass('ion-md-close');
+       icon.removeClass('ion-md-menu');
+     }else{
+       icon.addClass('ion-md-menu');
+       icon.removeClass('ion-md-close');
+     }
+     nav.toggleClass('active')  
+   });
 });
 $(function(){
   new WOW().init();

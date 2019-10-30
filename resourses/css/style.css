@@ -95,29 +95,25 @@ Main Nav
     margin-top: 20px;
 }
 
-.main-nav {
+.m-nav {
     float: right;
     list-style: none;
     margin-top: 57px;
     position: relative;
+    display: flex;
 }
 
-.main-nav li {
-    display: inline-block;
-    margin-left: 40px;
-    
-}
-
-.main-nav li a {
+.m-nav li a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 85%;
+    padding: 0 20px;
 
 }
 
-.main-nav a:hover,
-.main-nav a:active {
+.m-nav a:hover,
+.m-nav a:active {
     color: #e67e22;
 }
 
@@ -142,11 +138,14 @@ nav {
 .sticky-nav .mobile-res{
     margin-top: 10px;
 }
-.mobile-res ion-icon {
+.mobile-res i{
     font-size: 200%;
     color: #fff;
 }
-
+.main-nav.active .m-nav{
+    margin-top: 0; 
+    padding: 0;
+}
 /* 
 ========================================== 
 Sticky Nav
@@ -163,14 +162,17 @@ Sticky Nav
 
 }
 
-.sticky-nav .main-nav li a {
-    padding: 8px 0;
+.sticky-nav .m-nav li a {
     color: #555;
+    display: block;
     transition: all 0.2s;
+    margin: 10px 0;
+    padding: 0px 20px;
+
 }
 
-.sticky-nav .main-nav a:hover,
-.sticky-nav .main-nav a:active {
+.sticky-nav .m-nav a:hover,
+.sticky-nav .m-nav a:active {
     color: #e67e22;
 }
 
@@ -187,10 +189,22 @@ Sticky Nav
     height: 60px;
 }
 
-.sticky-nav .main-nav {
+.sticky-nav .m-nav {
     margin-top: 2%;
 }
+    
 
+.main-nav.active{
+   display: block; 
+    width:100%;
+}
+.main-nav.active .m-nav{
+    display: block;
+    float: none;
+}
+.main-nav.active ul li a{
+    margin: 0;
+}
 /*---------BUTTON----------*/
 .btn:link,
 .btn:visited {
