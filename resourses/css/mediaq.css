@@ -36,10 +36,19 @@ big Tablets
 
   .quotes {
     width: 70%;
+    height: 470px;
     font-size: 70%;
     padding: 0;
   }
-
+  .quotes h3 {
+    margin-top: 2%;
+    margin-bottom: 10px
+  }
+  #qimg img {
+    height: 130px;
+    width: 130px;
+    margin: 0 auto;
+ }
   .about-us {
     transform: scale(0.8);
     font-size: 110%;
@@ -104,10 +113,12 @@ big Tablets from 767px to 1023px
     width: 125px;
     height: 125px;
   }
-
+  .quotes p{
+    font-size: 120%;
+  }
   #qimg p,
   .qcontent {
-    margin-top: 0;
+    margin-top: 1%;
   }
 
   .border-blue,
@@ -274,9 +285,6 @@ Tablets and smartphone from 480px to 767px
   #special {
     top: 9.6%
   }
-  video{
-    display: none;
-  }
 }
 
 @media only screen and (max-width:600px) {
@@ -304,7 +312,7 @@ Tablets and smartphone from 480px to 767px
   }
 }
 
-@media only screen and (max-width:401px) {
+@media only screen and (max-width:412px) {
   #special {
     top: 17%
   }
@@ -312,12 +320,47 @@ Tablets and smartphone from 480px to 767px
   .about-us {
     height: 36.5rem;
   }
+  .quotes blockquote p {
+    line-height: 25px;
+}
+  .quotes h3{
+    margin-top: 5%;
+  }
+  .quotes blockquote::after {
+    content: "";
+}
+  .rcard{
+    margin-top: 10%;
+    width:70%;
+    height: 370px;
+  }
+  .animation-prjct{
+margin-bottom:15.3px;
+}
+   .android-prjct{
+margin-bottom:15.3px;
+} 
+  .rcard p{
+    margin-bottom: 20%;
+  }
+  .responsiveproject .row h3{
+    margin-top: 5%;
+  }
+  .card-img{
+    border-radius: 6px 6px 0 0;
+  }
 }
 
 @media only screen and (max-width:360px) {
   .hero-text-box {
     padding: 0 9%;
     font-size: 90%;
+  }
+  .quotes{
+    height: 110%;
+  }
+  .quotes p{
+    letter-spacing: 0;
   }
 }
 
