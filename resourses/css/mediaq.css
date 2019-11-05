@@ -72,11 +72,14 @@ big Tablets from 767px to 1023px
   body {
     font-size: 18px;
   }
-
+  
   .our-projects {
     display: none;
   }
-
+  .show-desktop{display: none;}
+  .show-mobile{display: inline;}
+  #js-about a.show-desktop{display: none;}
+  #js-about a.show-mobile{display: inline-block;}
   .responsiveproject {
     display: contents;
   }
@@ -268,6 +271,15 @@ Tablets and smartphone from 480px to 767px
   }
   .linear-logo{height: 50px;}
   .main-nav{display:none;}
+  .main-nav li a.show-desktop{display: none;}
+  .sticky-nav .m-nav li a{
+  padding:2%;
+}
+.sticky-nav ul li:hover,
+.sticky-nav ul li:focus
+{
+  background-color: #d6d6d6;
+}
 
 }
 
@@ -306,7 +318,6 @@ Tablets and smartphone from 480px to 767px
   #special {
     top: 15%
   }
-
   .about-us {
     height: 35rem;
   }
@@ -316,9 +327,14 @@ Tablets and smartphone from 480px to 767px
   #special {
     top: 17%
   }
-
+.main-nav.active ul li a,
+.sticky-nav .m-nav li a{
+    font-size: 0.8em;
+  
+}
   .about-us {
     height: 36.5rem;
+    width: 
   }
   .quotes blockquote p {
     line-height: 25px;
@@ -364,7 +380,7 @@ margin-bottom:15.3px;
   }
 }
 
- @media only screen and (min-height:700px) {
+ @media only screen and (max-width:415px) and (min-height:700px) {
  .about-us {
     height: 40rem;
   }
@@ -378,3 +394,4 @@ margin-bottom:15.3px;
     padding: 2%;
   }
 }
+ 

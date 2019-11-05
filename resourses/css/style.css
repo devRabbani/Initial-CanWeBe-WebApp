@@ -109,11 +109,10 @@ Main Nav
     text-transform: uppercase;
     font-size: 85%;
     padding: 0 20px;
-
 }
 
 .m-nav a:hover,
-.m-nav a:active {
+.m-nav a:focus{
     color: #e67e22;
 }
 
@@ -146,6 +145,10 @@ nav {
 .main-nav.active .m-nav{
     margin-top: 0; 
     padding: 0;
+}
+
+.show-mobile{
+    display:none;
 }
 /* 
 ========================================== 
@@ -338,7 +341,7 @@ h4 {
     line-height: 145%;
 }
 
-.flex-item ion-icon {
+.flex-item i{
     position: relative;
     display: block;
     color: #e67e22;
@@ -393,6 +396,7 @@ h4 {
     background-color: #ecf0f1;
     width: 80%;
     height: 85%;
+    overflow-y: hidden;
     margin: 0 auto;
     border-top: 18px solid #4c7ef3;
     border-radius: 8px;
@@ -410,7 +414,7 @@ h4 {
 #special {
     margin-top: 35%;
 }
-
+#js-about a.show-mobile{display:none;}
 
 /**********Projects***********/
 .responsiveproject {
