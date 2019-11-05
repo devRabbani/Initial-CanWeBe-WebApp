@@ -744,36 +744,36 @@ rcard p {
   margin-right: 6%;
 }
 
-.left-contact ion-icon {
+.left-contact i{
   font-size: 170%;
   color: rgba(0, 0, 0, 0.71);
 }
 
-.facebook ion-icon,
-.google ion-icon,
-.twitter ion-icon,
-.instagram ion-icon {
+.facebook i,
+.google i,
+.twitter i,
+.instagram i{
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 
-.facebook ion-icon:hover,
-.facebook ion-icon:active {
+.facebook i:hover,
+.facebook i:active {
   color: #3b5999;
 }
 
-.twitter ion-icon:hover,
-.twitter ion-icon:active {
+.twitter i:hover,
+.twitter i:active {
   color: #55acee;
 }
 
-.google ion-icon:hover,
-.google ion-icon:active {
+.google i:hover,
+.google i:active {
   color: #dd4b39;
 }
 
-.instagram ion-icon:hover,
-.instagram ion-icon:active {
+.instagram i:hover,
+.instagram i:active {
   color: #bc2a8d;
 }
 
@@ -797,7 +797,7 @@ rcard p {
   bottom: 2%;
 }
 
-.team ion-icon {
+.team i{
   color: #414141;
 
 }
@@ -882,36 +882,36 @@ rcard p {
   font-size: 140%;
 }
 
-.team .facebook ion-icon:hover,
-.team .facebook ion-icon:active {
+.team .facebook i:hover,
+.team .facebook i:active {
   color: #3b5999;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.team .instagram ion-icon:hover,
-.team .instagram ion-icon:active {
+.team .instagram i:hover,
+.team .instagram i:active {
   color: #bc2a8d;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.team .twitter ion-icon:hover,
-.team .twitter ion-icon:active {
+.team .twitter i:hover,
+.team .twitter i:active {
   color: #55acee;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.team .linkedin ion-icon:hover,
-.team .linkedin ion-icon:active {
+.team .linkedin i:hover,
+.team .linkedin i:active {
   color: #0077B5;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.team .github ion-icon:hover,
-.team .github ion-icon:active {
+.team .github i:hover,
+.team .github i:active {
   color: #bd2c00;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
