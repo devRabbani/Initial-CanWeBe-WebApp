@@ -393,7 +393,9 @@ margin-bottom:15.3px;
   .bg-video{
     background-color: #216296;
   }
-  
+  nav:not(.sticky-nav) .main-nav.active .m-nav{
+   margin-top:-15%;
+  }
 }
 
 @media only screen and (max-width:360px) {
