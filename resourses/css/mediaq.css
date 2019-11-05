@@ -321,9 +321,11 @@ Tablets and smartphone from 480px to 767px
   .about-us {
     height: 35rem;
   }
+  #qsection{margin:2em auto;}
+  .contact-us{padding-bottom: 1em}
 }
 
-@media only screen and (max-width:412px) {
+@media only screen and (max-width:414px) {
   #special {
     top: 17%
   }
@@ -365,6 +367,12 @@ margin-bottom:15.3px;
   .card-img{
     border-radius: 6px 6px 0 0;
   }
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/backgroundmin.jpg);
+}
+  .about-img {
+    background-image: url(img/aboutmin.jpg);
+}
 }
 
 @media only screen and (max-width:360px) {
@@ -392,6 +400,6 @@ margin-bottom:15.3px;
   .about-us-content p{
     font-size: 84%;
     padding: 2%;
-  }
+  } 
 }
  
