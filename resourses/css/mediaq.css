@@ -20,12 +20,14 @@ big Tablets
   }
 
   .plain-box {
+    -webkit-transform: scale(0.88);
     transform: scale(0.88);
     margin-left: 20px;
     margin-right: 20px;
   }
 
   .container {
+    -webkit-transform: scale(0.93);
     transform: scale(0.93);
   }
 
@@ -50,6 +52,7 @@ big Tablets
     margin: 0 auto;
  }
   .about-us {
+    -webkit-transform: scale(0.8);
     transform: scale(0.8);
     font-size: 110%;
     width: 95%;
@@ -85,6 +88,7 @@ big Tablets from 767px to 1023px
   }
 
   .plain-box {
+    -webkit-transform: scale(0.8);
     transform: scale(0.8);
     margin-left: -3%;
     margin-right: -3%;
@@ -136,6 +140,7 @@ big Tablets from 767px to 1023px
   .about-img {
     background-image: url(img/about-section-bg.jpg);
     height: 85vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 45%, 50% 38%, 0 45%);
     clip-path: polygon(0 0, 100% 0, 100% 45%, 50% 38%, 0 45%);
   }
 
@@ -368,6 +373,7 @@ margin-bottom:15.3px;
     border-radius: 6px 6px 0 0;
   }
   header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/backgroundmin.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/backgroundmin.jpg);
 }
   .about-img {
