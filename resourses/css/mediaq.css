@@ -327,7 +327,7 @@ Tablets and smartphone from 480px to 767px
     height: 35rem;
   }
   #qsection{margin:2em auto;}
-  .contact-us{padding-bottom: 1em}
+  .contact-us{padding-bottom: 2em}
 }
 
 @media only screen and (max-width:414px) {
@@ -340,8 +340,7 @@ Tablets and smartphone from 480px to 767px
   
 }
   .about-us {
-    height: 36.5rem;
-    width: 
+    height: 36.5rem; 
   }
   .quotes blockquote p {
     line-height: 25px;
@@ -402,6 +401,9 @@ margin-bottom:15.3px;
 }
   .popup-content h4{
     margin:4% auto;
+  }
+  .contact-us .col:first-child{
+    margin-bottom: 2.5%;
   }
 }
 

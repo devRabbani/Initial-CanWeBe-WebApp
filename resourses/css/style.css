@@ -711,7 +711,7 @@ rcard p {
 }
 
 .send-btn:hover,
-.send-btn:active {
+.send-btn:active{
   background-color: #0299c2;
   -webkit-box-shadow: 2px 4px 8px 0 #2e3d4926;
   box-shadow: 2px 4px 8px 0 #2e3d4926;
