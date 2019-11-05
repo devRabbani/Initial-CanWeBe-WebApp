@@ -395,6 +395,13 @@ margin-bottom:15.3px;
   }
   nav:not(.sticky-nav) .main-nav.active .m-nav{
    margin-top:-15%;
+  } 
+  .popup-content{
+  width: 80%;
+  height: auto;
+}
+  .popup-content h4{
+    margin:4% auto;
   }
 }
 
