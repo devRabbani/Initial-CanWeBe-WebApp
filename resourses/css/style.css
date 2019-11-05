@@ -1297,20 +1297,3 @@ nav {
 .btn-videography:active {
   color: #8e120e;
 }
-
-
-.form-message{
-  padding:3%;
-  margin:0 auto;
-  border-radius:7px;
-  border:1px solid;
-  font-size: 1.1em;
-}
-
-.success{
-    background-color: greenyellow;
-}
-.error{
-  background-color: rgb(216, 73, 20);
-  color: white;
-}
