@@ -138,7 +138,7 @@ big Tablets from 767px to 1023px
   }
 
   .about-img {
-    background-image: url(img/about-section-bg.jpg);
+    background-image: url(img/about-section-bg.webp);
     height: 85vh;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 45%, 50% 38%, 0 45%);
     clip-path: polygon(0 0, 100% 0, 100% 45%, 50% 38%, 0 45%);
