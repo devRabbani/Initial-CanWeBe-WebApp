@@ -386,9 +386,12 @@ margin-bottom:15.3px;
   margin: 5px 0;
   padding: 5px 18px;
 }
-  .bg-video-content{
+ /* 
+Insert Comment 
+.bg-video-content{
     display: none;
   }
+  */
   .bg-video{
     background-color: #216296;
   }
