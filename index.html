@@ -538,7 +538,7 @@
 
 
           <div class="vdo-content">
-            <video class="pop-up-vdo" controls preload="metadata">
+            <video class="pop-up-vdo" controls>
               <source src="resourses/video/Meghalaya%20Through%20My%20Lens%20(online-video-cutter.com)%20-%20converted%20with%20Clipchamp%20(1).mp4" type="video/mp4">
               Your Browser not support background video
             </video>
@@ -559,11 +559,8 @@
 
 
           <div class="vdo-content">
-            <video class="pop-up-vdo" controls preload="metadata">
+            <video class="pop-up-vdo" controls>
               <source src="resourses/video/Words%20-%20converted.webm" type="video/webm">
-              <source src="resourses/video/Words%20-%20converted%20mp4.mp4" type="video/mp4">
-              
-              Your Browser not support background video
             </video>
           </div>
           <div class="popup-des">
@@ -580,7 +577,7 @@
             <a href="#js-project">&times;</a>
           </div>
           <div class="vdo-content">
-            <video class="pop-up-vdo" controls preload="metadata">
+            <video class="pop-up-vdo" controls>
               <source src="resourses/video/-LOGO%20var%203%20(3).MP4" type="video/mp4">
               Your Browser not support background video
             </video>
@@ -602,10 +599,8 @@
 
 
           <div class="vdo-content">
-            <video class="pop-up-vdo" controls preload="metadata">
+            <video class="pop-up-vdo" controls>
               <source src="resourses/video/Words%20-%20converted.webm" type="video/webm">
-              <source src="resourses/video/Words%20-%20converted%20mp4.mp4" type="video/mp4">
-              Your Browser not support background video
             </video>
           </div>
           <div class="popup-des">
@@ -618,10 +613,9 @@
       <script src="vendors/js/jquery.js"></script>
       <script src="vendors/js/owl.carousel.min.js"></script>
       <script src="vendors/js/jquery.waypoints.min.js"></script>
-      <script src="vendors/js/wow.min.js"></script>
-  
+      <script src="vendors/js/wow.min.js"></script>         
 <script type="text/javascript">
-$(document).ready(function(){var e=1024;function t(){var t=document.getElementById("herovideo");if($(document).width()<e+1)for(;t.firstChild;)t.removeChild(t.firstChild);if($(document).width()>e){if(document.querySelectorAll("#herovideo > source").length<1){var o=document.createElement("source"),d=document.createElement("source");o.setAttribute("src","/resourses/video/Words%20-%20converted%20mp4.mp4"),o.setAttribute("type","video/mp4"),d.setAttribute("src","/resourses/video/Words%20-%20converted.webm"),d.setAttribute("type","video/webm"),t.appendChild(o),t.appendChild(d)}$("#herovideo")[0].play()}}t(),$(window).blur(function(){$("#herovideo")[0].pause()}),$(window).focus(function(){$(document).width()>e&&$("#herovideo")[0].play()}),$(window).resize(function(){t()}),window.onpopstate=function(){$(document).width()>e&&$("#herovideo")[0].play()}});
+  $(document).ready(function(){var e=1024;function t(){var t=document.getElementById("herovideo");if($(document).width()<e+1)for(;t.firstChild;)t.removeChild(t.firstChild);if($(document).width()>e){if(document.querySelectorAll("#herovideo > source").length<1){var o=document.createElement("source");o.setAttribute("src","/resourses/video/Words%20-%20converted.webm"),o.setAttribute("type","video/webm"),t.appendChild(o)}$("#herovideo")[0].play()}}t(),$(window).resize(function(){t()})});
 </script>
       <script src="resourses/js/custom.js"></script>
     </body>
