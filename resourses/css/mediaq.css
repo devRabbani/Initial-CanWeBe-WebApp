@@ -372,11 +372,11 @@ margin-bottom:15.3px;
     border-radius: 6px 6px 0 0;
   }
   header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/backgroundmin.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/backgroundmin.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/backgroundmin.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/backgroundmin.webp);
 }
   .about-img {
-    background-image: url(img/aboutmin.jpg);
+    background-image: url(img/aboutmin.webp);
 }
   .contact-form {
   width: 75%;

@@ -537,28 +537,23 @@ h4 {
 }
 
 .img-1 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(230, 126, 34, 0.76)), to(rgba(255, 198, 148, 0.76))), url(img/web%20dev.jpg);
-  background-image: linear-gradient(to right bottom, rgba(230, 126, 34, 0.76), rgba(255, 198, 148, 0.76)), url(img/web%20dev.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(230, 126, 34, 0.76)), to(rgba(255, 198, 148, 0.76))),url(img/web%20dev.webp);
 }
 
 .img-2 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(230, 126, 34, 0.76)), to(rgba(255, 198, 148, 0.76))), url(img/videography.jpg);
-  background-image: linear-gradient(to right bottom, rgba(230, 126, 34, 0.76), rgba(255, 198, 148, 0.76)), url(img/videography.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(230, 126, 34, 0.76)), to(rgba(255, 198, 148, 0.76))), url(img/videography.webp);
 }
 
 .img-3 {
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(230, 126, 34, 0.76)), to(rgba(255, 198, 148, 0.76))), url(img/python.jpg);
-  background-image: linear-gradient(to right bottom, rgba(230, 126, 34, 0.76), rgba(255, 198, 148, 0.76)), url(img/python.jpg);
 }
 
 .img-4 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(230, 126, 34, 0.76)), to(rgba(255, 198, 148, 0.76))), url(img/animation.jpg);
-  background-image: linear-gradient(to right bottom, rgba(230, 126, 34, 0.76), rgba(255, 198, 148, 0.76)), url(img/animation.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(230, 126, 34, 0.76)), to(rgba(255, 198, 148, 0.76))), url(img/animation.webp);
 }
 
 .img-5 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(230, 126, 34, 0.76)), to(rgba(255, 198, 148, 0.76))), url(img/android.jpg);
-  background-image: linear-gradient(to right bottom, rgba(230, 126, 34, 0.76), rgba(255, 198, 148, 0.76)), url(img/android.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(230, 126, 34, 0.76)), to(rgba(255, 198, 148, 0.76))), url(img/android.webp);
 }
 
 
