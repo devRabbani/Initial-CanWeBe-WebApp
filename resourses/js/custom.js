@@ -44,6 +44,15 @@ $(document).ready(function () {
     }
     nav.toggleClass('active')
   });
+//for removing nav on click
+  $('.js-main-nav li a').on('click touch',function(){
+    if (checkWidth()){
+      $('.js-mobile-res').click();
+    }
+    });
+function checkWidth(){
+ return ($(window).width() < 760);
+} 
 var breakpoint=1024;function loadVideo(){var e=document.getElementById("herovideo");if($(document).width()<breakpoint+1)for(;e.firstChild;)e.removeChild(e.firstChild);if($(document).width()>breakpoint){if(document.querySelectorAll("#herovideo > source").length<1){var o=document.createElement("source");o.setAttribute("src","/resourses/video/Words%20-%20converted.webm"),o.setAttribute("type","video/webm"),e.appendChild(o)}$("#herovideo")[0].play()}}loadVideo(),$(window).resize(function(){loadVideo()});
 });
 $(function () {
