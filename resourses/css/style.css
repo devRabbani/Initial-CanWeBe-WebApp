@@ -1282,7 +1282,7 @@ nav {
 }
 
 .btn-videography:link,
-.btn-videography:visited {
+.btn-videography:visited{
   text-decoration: none;
   color: #c4302b;
 
@@ -1291,4 +1291,27 @@ nav {
 .btn-videography:hover,
 .btn-videography:active {
   color: #8e120e;
+}
+
+.btn-python{
+  display: block;
+  color: black;
+  text-decoration: none;
+  border:1px solid #02b3e4;
+  border-radius: 6px;
+  padding:6px 5px;
+  margin:0 auto;
+  margin-bottom: 2%;
+  width:45%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; 
+  -webkit-box-shadow: 1px 1px 10px rgba(0,0,0,0.2); 
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+}
+
+.btn-python:hover,
+.btn-python:active{
+  border-color: grey;
+  background-color: grey;
+  color:#fff;
 }
