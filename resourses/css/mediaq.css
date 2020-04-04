@@ -328,6 +328,9 @@ Tablets and smartphone from 480px to 767px
   }
   #qsection{margin:2em auto;}
   .contact-us{padding-bottom: 2em}
+  .loader img{
+    width:24%;
+  }
 }
 
 @media only screen and (max-width:414px) {

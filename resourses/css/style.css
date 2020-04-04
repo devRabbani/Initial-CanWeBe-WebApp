@@ -10,6 +10,7 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  overflow-y: hidden;
 }
 
 /***********Components reuseble**************/
@@ -1314,4 +1315,23 @@ nav {
   border-color: grey;
   background-color: grey;
   color:#fff;
+}
+
+.loader{
+  position: absolute;
+  background-color: white;
+  z-index: 999999999;
+  width: 100%;
+  height: 100vh;
+}
+.loader{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }

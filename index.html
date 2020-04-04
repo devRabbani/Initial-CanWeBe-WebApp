@@ -22,11 +22,9 @@
       <title>CanWeBe!</title>
       <link rel="shortcut icon" type="image/png" href="resourses/img/favicon.png">
 
-
-
     </head>
-
     <body>
+     <div class="loader"><img src="resourses/img/Dualring.svg" alt="loading"></div>
       <nav>
         <div class="row animated fadeIn">
           <a href="#js-home"><img src="resourses/img/canwebe%20logo.webp" alt="CanWeBe!-logo" class="logo"></a>
@@ -387,7 +385,7 @@
                   <img src="resourses/img/Elon%20musk.jpg" alt="Elon_Musk">
                 </div>
                 <blockquote>
-                  <p>When something is important enough, you do it even if the odds are not in your favo.r</p>
+                  <p>When something is important enough, you do it even if the odds are not in your favour</p>
                 </blockquote>
                 <div class="row author">
                   <p>
@@ -427,7 +425,6 @@
             </div>
           </div>
         </div>
-
       </section>
       <section class="contact-us" id="js-contact">
         <div class="row wow fadeInDown data-wow-duration=' 1s' data-wow-offset='100' data-wow-delay='.5s'">
@@ -525,7 +522,7 @@
           <div class="popup-des-web">
 
             <p>CanWeBe is a web developement project.This is our first developement project which is live.In this site we use latest HTML5 and CSS3.We use little bit CSS and javascript animation.We also add JQuery and it is responsive site.</p>
-            <a class="btn-videography" href="https://www.youtube.com/watch?v=wt-iEyQ6MgE&list=PLwbJsmHGoznM4KzBxQ-e1ZKZzJKI-_l68" target="_blank">View on GitHub</a>
+            <a class="btn-videography" href="https://github.com/StrikerOne65/CanWeBe-Web-Project" target="_blank">View on GitHub</a>
           </div>
         </div>
       </div>
@@ -607,14 +604,18 @@
           <div class="popup-des">
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quis magnam corporis repellendus mollitia suscipit soluta veritatis facere deleniti tempora cumque</p>
-            <a class="btn-videography" href="https://www.youtube.com/watch?v=wt-iEyQ6MgE&list=PLwbJsmHGoznM4KzBxQ-e1ZKZzJKI-_l68" target="_blank">View on GitHub</a>
+            <a class="btn-videography" href="#" target="_blank">View on GitHub</a>
           </div>
         </div>
       </div>
       <script src="vendors/js/jquery.js"></script>
       <script src="vendors/js/owl.carousel.min.js"></script>
       <script src="vendors/js/jquery.waypoints.min.js"></script>
-      <script src="vendors/js/wow.min.js"></script>         
+      <script src="vendors/js/wow.min.js"></script> 
+      <script>window.addEventListener('load',()=>{
+          document.querySelector('.loader').style.display='none';
+          document.querySelector('html').style.overflowY='auto';
+        })</script>        
       <script src="resourses/js/custom.js"></script>
     </body>
 
