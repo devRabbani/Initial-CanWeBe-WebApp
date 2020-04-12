@@ -7,7 +7,6 @@ body {
   font-size: 20px;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  scroll-behavior: smooth;
   overflow-y: hidden;
 }
 .row {
@@ -939,7 +938,6 @@ rcard p {
 footer {
   background-color: #333;
   color: #bebebe;
-  margin-bottom: 20px;
   padding: 20px 0;
 }
 footer ul {
