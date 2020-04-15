@@ -60,7 +60,7 @@ $(document).ready(function () {
     if ($(document).width() > breakpoint) {
       if (document.querySelectorAll('#herovideo > source').length < 1) {
         var o = document.createElement('source');
-        o.setAttribute('src', '/resourses/video/Words%20-%20converted.webm'),
+        o.setAttribute('src', '/video/Words%20-%20converted.webm'),
           o.setAttribute('type', 'video/webm'),
           e.appendChild(o);
       }
