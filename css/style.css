@@ -373,13 +373,12 @@ h4 {
 }
 .about-us-content {
   padding-left: 4%;
+  margin-top: 35%;
 }
 .about-us-content p {
   text-align: left;
 }
-#special {
-  margin-top: 35%;
-}
+
 #js-about a.show-mobile {
   display: none;
 }
@@ -388,11 +387,12 @@ h4 {
   font-size: 85%;
 }
 .rcard {
-  height: 280px;
-  width: 200px;
+  height: auto;
+  min-width: 260px;
+  flex-basis: 30%;
   margin-left: 2%;
-  border: 4px solid #2fbaba;
-  margin-bottom: 2%;
+  border: 4px solid #02b3e4;
+  margin-bottom: 45px;
   border-radius: 10px;
   -webkit-box-shadow: -7px -2px 13px 4px #bebebe;
   box-shadow: -7px -2px 13px 4px #bebebe;
@@ -412,7 +412,17 @@ h4 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  align-items: center;
 }
+
+.rcard .card-img {
+  height: 140px;
+}
+
+.rcard p {
+  margin-bottom: 15%;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -500,6 +510,7 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   height: 45%;
+  border-radius: 6px 6px 0 0;
   background-blend-mode: screen;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -536,6 +547,10 @@ h4 {
   left: 0;
   right: 0;
 }
+
+.btn-rproject {
+  margin-bottom: 20px;
+}
 .details {
   padding: 5%;
 }
@@ -560,12 +575,7 @@ rcard p {
   margin-bottom: 7%;
   margin-top: 5%;
 }
-.animation-prjct {
-  margin-bottom: 16%;
-}
-.android-prjct {
-  margin-bottom: 0;
-}
+
 .contact-us {
   background-color: #95a5a6;
   border: 5px solid rgba(0, 0, 0, 0.1);
@@ -1030,7 +1040,6 @@ nav {
   background-color: white;
   -webkit-box-shadow: 10px 10px 13px #2e3d4933;
   box-shadow: 10px 10px 13px #2e3d4933;
-  height: 25rem;
   position: absolute;
   top: 55%;
   left: 50%;

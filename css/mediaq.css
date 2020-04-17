@@ -1,1 +1,353 @@
-@media only screen and (max-width:1200px){.row{padding:0 2%}header{font-size:17px}.features{background-size:24%;background-position:right}.team:after{background-size:20%}.plain-box{-webkit-transform:scale(.88);transform:scale(.88);margin-left:20px;margin-right:20px}.container{-webkit-transform:scale(.93);transform:scale(.93)}.popup-content{width:40%;font-size:90%}.quotes{width:70%;height:470px;font-size:70%;padding:0}.quotes h3{margin-top:2%;margin-bottom:10px}#qimg img{height:130px;width:130px;margin:0 auto}.about-us{-webkit-transform:scale(.8);transform:scale(.8);font-size:110%;width:95%}.border-blue,.border-green{top:-1px}}@media only screen and (max-width:1023px){html,body{font-size:18px}.our-projects{display:none}.show-desktop{display:none}.show-mobile{display:inline}#js-about a.show-desktop{display:none}#js-about a.show-mobile{display:inline-block}.responsiveproject{display:contents}.plain-box{-webkit-transform:scale(.8);transform:scale(.8);margin-left:-3%;margin-right:-3%;font-size:110%}section{padding:0}.responsiveproject .row h3{margin-top:2%}.team:after{background-size:25%;background-position:left center}header{font-size:80%}.quotes{width:85%}#qimg img{width:125px;height:125px}.quotes p{font-size:120%}#qimg p,.qcontent{margin-top:1%}.border-blue,.border-green{top:-1px}.col{width:100%}.about-img{background-image:url(img/about-section-bg.webp);height:85vh;-webkit-clip-path:polygon(0 0,100% 0,100% 45%,50% 38%,0 45%);clip-path:polygon(0 0,100% 0,100% 45%,50% 38%,0 45%)}.about-us-content{padding:2%}.about-us{padding:0;height:577px}.btn-3:link,.btn-3:visited{float:none}.left-contact{width:80%;margin:0 auto}.contact-us{font-size:80%}.contact-us h3{margin-top:2%}.contact-form{width:60%;margin:0 auto}.contact-left{margin-left:0}.contact-left label{font-size:70%}footer{font-size:80%}.popup-content{width:40%;height:60%;font-size:90%}#special{position:absolute;top:-7%;left:0}}@media only screen and (max-width:900px){#special{top:0}}@media only screen and (max-width:840px){#special{top:2%}}@media only screen and (max-width:767px){header{font-size:60%}.features{font-size:80%}#js-about{padding:0}.team h3{font-size:120%}.plain-box{margin-bottom:0}.left-side,.right-side{width:100%}.contact-us h3{margin-top:3%}.popup-content{width:50%;height:60%}.mobile-res{display:inline-block}.main-nav{float:left}.main-nav li{display:block}.main-nav li a:link,.main-nav li a:visited{display:block;border:0;font-size:110%;padding-top:10px}.sticky-nav i{color:black}.linear-logo{height:50px}.main-nav{display:none}.main-nav li a.show-desktop{display:none}.sticky-nav .m-nav li a{padding:2%}.sticky-nav ul li:hover,.sticky-nav ul li:focus{background-color:#d6d6d6}}@media only screen and (max-width:720px){#special{top:9.6%}.about-us{height:1%}}@media only screen and (max-width:660px){#special{top:9.6%}}@media only screen and (max-width:600px){#special{top:15%}.about-us{height:100%}.popup-content{width:60%;height:60%}}@media only screen and (max-width:498px){#special{top:15%}.about-us{height:35rem}#qsection{margin:2em auto}.contact-us{padding-bottom:2em}.loader img{width:24%}}@media only screen and (max-width:414px){#special{top:17%}.main-nav.active ul li a,.sticky-nav .m-nav li a{font-size:.8em}.about-us{height:36.5rem}.quotes blockquote p{line-height:25px}.quotes h3{margin-top:5%}.quotes blockquote::after{content:""}.rcard{margin-top:10%;width:70%;height:370px}.animation-prjct{margin-bottom:15.3px}.android-prjct{margin-bottom:15.3px}.rcard p{margin-bottom:20%}.responsiveproject .row h3{margin-top:5%}.card-img{border-radius:6px 6px 0 0}header{background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.7))),url(img/backgroundmin.webp);background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(img/backgroundmin.webp)}.about-img{background-image:url(img/aboutmin.webp)}.contact-form{width:75%}.txtbox{border-radius:5px;margin:5px 0;padding:5px 18px}.bg-video{background-color:#216296}nav:not(.sticky-nav) .main-nav.active .m-nav{margin-top:-15%}.popup-content{width:80%;height:auto}.popup-content h4{margin:4% auto}.contact-us .col:first-child{margin-bottom:2.5%}}@media only screen and (max-width:360px){.hero-text-box{padding:0 9%;font-size:90%}.quotes{height:110%}.quotes p{letter-spacing:0}}@media only screen and (max-width:415px) and (min-height:700px){.about-us{height:40rem}#special{top:23%}}@media only screen and (max-height:670px){.about-us-content p{font-size:84%;padding:2%}}
+@media only screen and (max-width: 1200px) {
+  .row {
+    padding: 0 2%;
+  }
+  header {
+    font-size: 17px;
+  }
+  .features {
+    background-size: 24%;
+    background-position: right;
+  }
+  .team:after {
+    background-size: 20%;
+  }
+  .plain-box {
+    -webkit-transform: scale(0.88);
+    transform: scale(0.88);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .container {
+    -webkit-transform: scale(0.93);
+    transform: scale(0.93);
+  }
+  .popup-content {
+    width: 40%;
+    font-size: 90%;
+  }
+  .quotes {
+    width: 70%;
+    height: 470px;
+    font-size: 70%;
+    padding: 0;
+  }
+  .quotes h3 {
+    margin-top: 2%;
+    margin-bottom: 10px;
+  }
+  #qimg img {
+    height: 130px;
+    width: 130px;
+    margin: 0 auto;
+  }
+  .about-us {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    font-size: 110%;
+    width: 95%;
+  }
+  .border-blue,
+  .border-green {
+    top: -1px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  html,
+  body {
+    font-size: 18px;
+  }
+  .our-projects {
+    display: none;
+  }
+  .show-desktop {
+    display: none;
+  }
+  .show-mobile {
+    display: inline;
+  }
+  #js-about a.show-desktop {
+    display: none;
+  }
+  #js-about a.show-mobile {
+    display: inline-block;
+  }
+  .responsiveproject {
+    display: contents;
+  }
+  .plain-box {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    margin-left: -3%;
+    margin-right: -3%;
+    font-size: 110%;
+  }
+  section {
+    padding: 0;
+  }
+  .responsiveproject .row h3 {
+    margin-top: 2%;
+  }
+  .team:after {
+    background-size: 25%;
+    background-position: left center;
+  }
+  header {
+    font-size: 80%;
+  }
+  .quotes {
+    width: 85%;
+  }
+  #qimg img {
+    width: 125px;
+    height: 125px;
+  }
+  .quotes p {
+    font-size: 120%;
+  }
+  #qimg p,
+  .qcontent {
+    margin-top: 1%;
+  }
+  .border-blue,
+  .border-green {
+    top: -1px;
+  }
+  .col {
+    width: 100%;
+  }
+  .about-img {
+    background-image: url(img/about-section-bg.webp);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 55%, 50% 44%, 0 55%);
+    clip-path: polygon(0 0, 100% 0, 100% 55%, 50% 44%, 0 55%);
+    height: 637px;
+  }
+  .about-us-content {
+    padding: 2%;
+    margin-top: 0;
+    position: absolute;
+    top: 320px;
+    left: 0;
+  }
+  .about-us {
+    padding: 0;
+  }
+  .btn-3:link,
+  .btn-3:visited {
+    float: none;
+  }
+  .left-contact {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contact-us {
+    font-size: 80%;
+  }
+  .contact-us h3 {
+    margin-top: 2%;
+  }
+  .contact-form {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .contact-left {
+    margin-left: 0;
+  }
+  .contact-left label {
+    font-size: 70%;
+  }
+  footer {
+    font-size: 80%;
+  }
+  .popup-content {
+    width: 40%;
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    font-size: 60%;
+  }
+  .features {
+    font-size: 80%;
+  }
+  #js-about {
+    padding: 0;
+  }
+  .team h3 {
+    font-size: 120%;
+  }
+  .plain-box {
+    margin-bottom: 0;
+  }
+  .left-side,
+  .right-side {
+    width: 100%;
+  }
+  .contact-us h3 {
+    margin-top: 3%;
+  }
+  .popup-content {
+    width: 50%;
+  }
+  .mobile-res {
+    display: inline-block;
+  }
+  .main-nav {
+    float: left;
+  }
+  .main-nav li {
+    display: block;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    font-size: 110%;
+    padding-top: 10px;
+  }
+  .sticky-nav i {
+    color: black;
+  }
+  .linear-logo {
+    height: 50px;
+  }
+  .main-nav {
+    display: none;
+  }
+  .main-nav li a.show-desktop {
+    display: none;
+  }
+  .sticky-nav .m-nav li a {
+    padding: 2%;
+  }
+  .sticky-nav ul li:hover,
+  .sticky-nav ul li:focus {
+    background-color: #d6d6d6;
+  }
+  .about-us {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-us {
+    width: 100%;
+  }
+  .popup-content {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 498px) {
+  .about-img {
+    clip-path: polygon(0 0, 100% 0, 100% 260px, 50% 210px, 0 260px);
+  }
+  .about-us {
+    margin-top: 50px;
+    transform: scale(1);
+    width: 95%;
+    height: 30rem;
+  }
+  #js-about {
+    padding-bottom: 10%;
+  }
+  .about-us-content {
+    top: 250px;
+  }
+  .about-us-content h3 {
+    transform: scale(0.8);
+    margin-bottom: 4%;
+  }
+
+  .about-us-content p {
+    font-size: 80%;
+    line-height: 130%;
+    text-align: center;
+  }
+  #js-about a {
+    transform: scale(0.8);
+  }
+
+  #qsection {
+    margin: 2em auto;
+  }
+  .contact-us {
+    padding-bottom: 2em;
+  }
+  .loader img {
+    width: 24%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .main-nav.active ul li a,
+  .sticky-nav .m-nav li a {
+    font-size: 0.8em;
+  }
+  .quotes blockquote p {
+    line-height: 25px;
+  }
+  .quotes h3 {
+    margin-top: 5%;
+  }
+  .quotes blockquote::after {
+    content: '';
+  }
+
+  .responsiveproject .row h3 {
+    margin-top: 5%;
+  }
+  header {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(0, 0, 0, 0.7)),
+        to(rgba(0, 0, 0, 0.7))
+      ),
+      url(img/backgroundmin.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(img/backgroundmin.webp);
+  }
+  .about-img {
+    background-image: url(img/aboutmin.webp);
+  }
+  .contact-form {
+    width: 75%;
+  }
+  .txtbox {
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 5px 18px;
+  }
+  .bg-video {
+    background-color: #216296;
+  }
+  nav:not(.sticky-nav) .main-nav.active .m-nav {
+    margin-top: -15%;
+  }
+  .popup-content {
+    width: 80%;
+  }
+  .popup-content h4 {
+    margin: 4% auto;
+  }
+  .contact-us .col:first-child {
+    margin-bottom: 2.5%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .hero-text-box {
+    padding: 0 9%;
+    font-size: 90%;
+  }
+  .quotes {
+    height: 110%;
+  }
+  .quotes p {
+    letter-spacing: 0;
+  }
+  .about-us {
+    height: 32rem;
+  }
+}
