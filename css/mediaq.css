@@ -243,6 +243,13 @@
   .about-img {
     clip-path: polygon(0 0, 100% 0, 100% 260px, 50% 210px, 0 260px);
   }
+  .plain-box ul li {
+    margin-left: 6%;
+    font-size: 195%;
+  }
+  .rabbani-slider {
+    height: 370px;
+  }
   .about-us {
     margin-top: 50px;
     transform: scale(1);

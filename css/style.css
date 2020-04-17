@@ -8,6 +8,12 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   overflow-y: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
 .row {
   max-width: 1140px;
@@ -483,7 +489,7 @@ h4 {
       from(rgba(230, 126, 34, 0.76)),
       to(rgba(255, 198, 148, 0.76))
     ),
-    url(img/python.jpg);
+    url(img/python.webp);
 }
 .img-4 {
   background-image: -webkit-gradient(
