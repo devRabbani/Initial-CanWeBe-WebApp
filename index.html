@@ -32,7 +32,7 @@
   <title>CanWeBe!-A Software making Company</title>
 </head>
 
-<body ontouchstart="">
+<body>
   <div class=loader><img src=img/Dualring.svg alt=loading></div>
   <nav>
     <div class="row animated fadeIn">
@@ -620,16 +620,19 @@
       </div>
     </div>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src=js/owl.carousel.min.js></script>
-  <script src=js/jquery.waypoints.min.js></script>
-  <script src=js/wow.min.js></script>
   <script>
+    document.addEventListener('touchmove', console.log("touch"), {
+      passive: true,
+    });
     window.addEventListener('load', () => {
       document.querySelector('.loader').style.display = 'none';
       document.querySelector('html').style.overflowY = 'auto';
     })
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src=js/owl.carousel.min.js></script>
+  <script src=js/jquery.waypoints.min.js></script>
+  <script src=js/wow.min.js></script>
   <script src=js/custom.js></script>
 </body>
 
