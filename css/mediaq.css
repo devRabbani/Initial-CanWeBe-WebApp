@@ -133,21 +133,23 @@
         float: none
     }
 
-    .left-contact{
-        text-align:center;
+    .left-contact {
+        text-align: center;
         width: 100%;
-        margin: 0 auto;
-    }
-    ul.social-link{
-        padding-left: 40px;
+        margin: 0 auto
     }
 
-    .resleftp{
-        margin:0 auto;
-        width: 70%;
+    ul.social-link {
+        padding-left: 40px
     }
-    address{
-        margin-top: 15px;
+
+    .resleftp {
+        margin: 0 auto;
+        width: 70%
+    }
+
+    address {
+        margin-top: 15px
     }
 
     .contact-us {
@@ -259,10 +261,10 @@
     .about-us {
         height: auto
     }
-    .logo{
-      margin-left: 10px;
-    }
 
+    .logo {
+        margin-left: 10px
+    }
 }
 
 @media only screen and (max-width:600px) {
@@ -273,8 +275,9 @@
     .popup-content {
         width: 60%
     }
-    .resleftp{
-        width: 100%;
+
+    .resleftp {
+        width: 100%
     }
 }
 
@@ -384,9 +387,10 @@
     .contact-us .col:first-child {
         margin-bottom: 2.5%
     }
-    .main-logo{
+
+    .main-logo {
         height: 70px;
-        margin-top: 30px;
+        margin-top: 30px
     }
 }
 
