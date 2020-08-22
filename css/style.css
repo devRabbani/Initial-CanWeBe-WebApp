@@ -19,6 +19,18 @@ body {
     margin: 0
 }
 
+img {
+    width: 100%
+}
+
+#popup-1 img {
+    width: 95%
+}
+
+.rcontainer div:last-child h4 {
+    margin-bottom: 0
+}
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
