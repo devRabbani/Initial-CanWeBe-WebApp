@@ -417,7 +417,6 @@ h4 {
     background-color: #ecf0f1;
     width: 80%;
     height: 85%;
-    overflow-y: hidden;
     margin: 0 auto;
     border-top: 18px solid #4c7ef3;
     border-radius: 8px;
@@ -1163,6 +1162,59 @@ nav {
 .col:first-child {
     margin-left: 0
 }
+
+.staffv{
+    height: 100vh;
+}
+.staffv h3{
+    margin-top: 60px;
+}
+
+.verifystatus{
+    font-size: 33px;
+    color: red;
+    letter-spacing: 5px;
+}
+ div.staffcard{
+     width: 80%;
+     margin: 65px auto;
+     border: 5px solid #02B3E4;
+     border-radius: 15px;
+     background-color: #f1ece9;
+     display: none;
+     justify-content: space-around;
+     align-items: center;
+     padding: 6% 2%;
+     text-align: left;
+ }
+.staffcard h4{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.staffrole{
+    /* font-size: 17px; */
+    color: #E67E22;
+}
+ .staffbio{
+     font-size: 20px;
+ }
+ .staffcard div:first-of-type{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.staffcard div:nth-of-type(2){
+    width: 70%;
+}
+
+.staffcard img{
+    width: 200px;
+    border: 4px solid #8e8e8e;
+    border-radius: 50%;
+}
+
 
 @media only screen and (max-width:480px) {
     .col {

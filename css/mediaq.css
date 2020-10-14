@@ -118,10 +118,7 @@
 
     .about-us-content {
         padding: 2%;
-        margin-top: 0;
-        position: absolute;
-        top: 320px;
-        left: 0
+        margin-top: -328px;
     }
 
     .about-us {
@@ -176,6 +173,13 @@
     .popup-content {
         width: 40%;
         font-size: 90%
+    }
+    .staffcard div:nth-of-type(2) {
+        width: 60%;
+    }
+
+    .staffcard img{
+        width: 175px;
     }
 }
 
@@ -257,19 +261,36 @@
     .sticky-nav ul li:focus {
         background-color: #d6d6d6
     }
-
-    .about-us {
-        height: auto
-    }
-
-    .logo {
+ .logo {
         margin-left: 10px
     }
+    .staffcard img{
+        width: 150px;
+    }
+    .staffbio{
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .staffrole{
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+    div.staffcard{
+        width: auto;
+    }
+
+    .staffv h3{
+        font-size: 100%;
+    }
+
 }
 
 @media only screen and (max-width:600px) {
     .about-us {
         width: 100%
+    }
+    .about-us-content{
+        padding: 2% 5%;
     }
 
     .popup-content {
@@ -281,7 +302,30 @@
     }
 }
 
-@media only screen and (max-width:498px) {
+@media only screen and (max-width:549px){
+  div.staffcard{
+      flex-wrap: wrap;
+      width: 60%;
+      min-width: 280px;
+  }
+  .staffcard div:first-of-type{
+      width: 100%;
+  }
+  .staffcard div:nth-of-type(2){
+      width: 100%;
+      text-align: center;
+  }
+  .staffcard h4{
+      margin-top: 5%;
+      font-size: 20px;
+  }
+  .staffrole{
+      margin-top: 7px;
+  }
+
+}
+
+@media only screen and (max-width:499px) {
     .about-img {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 260px, 50% 210px, 0 260px);
         clip-path: polygon(0 0, 100% 0, 100% 260px, 50% 210px, 0 260px)
@@ -301,7 +345,7 @@
         -webkit-transform: scale(1);
         transform: scale(1);
         width: 95%;
-        height: 30rem
+        height: 550px;
     }
 
     #js-about {
@@ -309,7 +353,7 @@
     }
 
     .about-us-content {
-        top: 250px
+        margin-top: -400px;
     }
 
     .about-us-content h3 {
@@ -392,6 +436,12 @@
         height: 70px;
         margin-top: 30px
     }
+    .about-us{
+        height: 600px;
+    }
+    .verifystatus{
+        font-size: 23px;
+    }
 }
 
 @media only screen and (max-width:360px) {
@@ -399,8 +449,11 @@
         padding: 0 9%;
         font-size: 90%
     }
-
-    .about-us {
-        height: 32rem
-    }
+.about-us{
+    height: 650px;
+}
+div.staffcard{
+    width: 90%;
+    min-width: auto;
+}
 }
