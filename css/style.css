@@ -7,7 +7,6 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
     -webkit-tap-highlight-color: transparent;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -1273,7 +1272,6 @@ div.staffcard {
 }
 
 .projectsarea {
-    position: relative;
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -1283,7 +1281,6 @@ div.staffcard {
 }
 
 .projectcard {
-    position: relative;
     margin: 30px 20px 60px;
     padding: 20px 15px;
     height: 167px;
@@ -1304,7 +1301,6 @@ div.staffcard {
 }
 
 .projectdes {
-    position: relative;
     margin-top: -140px;
     padding: 10px 15px;
     visibility: hidden;
@@ -1453,8 +1449,8 @@ div.staffcard {
     height: 500px;
     background-image: url(img/pent.svg);
     background-repeat: no-repeat;
-    position: absolute;
-    top: 100px;
+    position: fixed;
+    top: 175px;
     z-index: 1
 }
 
