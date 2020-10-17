@@ -19,8 +19,7 @@
     .plain-box {
         -webkit-transform: scale(.88);
         transform: scale(.88);
-        margin-left: 20px;
-        margin-right: 20px
+        margin: 5px 20px 45px;
     }
 
     .container {
@@ -79,8 +78,7 @@
     .plain-box {
         -webkit-transform: scale(.8);
         transform: scale(.8);
-        margin-left: -3%;
-        margin-right: -3%;
+        margin:5px 0;
         font-size: 110%
     }
 
@@ -89,9 +87,11 @@
     }
 
     .responsiveproject .row h3 {
-        margin-top: 2%
+        margin: 50px auto 65px;
     }
-
+.team{
+    padding-bottom: 25px;
+}
     .team:after {
         background-size: 25%;
         background-position: left center
@@ -181,6 +181,20 @@
     .staffcard img{
         width: 175px;
     }
+    .projectcard{
+        height: 164px;
+    }
+hr{
+    margin-top: 0;
+}
+.seemore{
+    text-align: center;
+    width: 80px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    font-size: 90%;
+}
+
 }
 
 @media only screen and (max-width:767px) {
@@ -200,19 +214,17 @@
         font-size: 120%
     }
 
-    .plain-box {
-        margin-bottom: 0
-    }
-
     .left-side,
     .right-side {
         width: 100%
     }
 
     .contact-us h3 {
-        margin-top: 3%
+        margin-top: 38px
     }
-
+  .left-h4{
+      color: #000000;
+  }
     .popup-content {
         width: 50%
     }
@@ -322,6 +334,12 @@
   .staffrole{
       margin-top: 7px;
   }
+  .tohome{
+      top:auto;
+      left: auto;
+      right:20px;
+      bottom: 20px;
+  }
 
 }
 
@@ -333,11 +351,7 @@
 
     .plain-box ul li {
         margin-left: 6%;
-        font-size: 195%
-    }
-
-    .rabbani-slider {
-        height: 370px
+        font-size: 155%
     }
 
     .about-us {
@@ -379,6 +393,17 @@
 
     .loader img {
         width: 24%
+    }
+    hr{
+        width: 85%;
+        margin-top: -10px;
+    }
+    .seemore{
+        text-align: center;
+        width: 80px;
+        padding: 10px 20px;
+        margin-bottom: 40px;
+        font-size: 90%;
     }
 }
 
