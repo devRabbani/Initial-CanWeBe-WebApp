@@ -16,7 +16,6 @@ html {
     -webkit-text-size-adjust: 100%;
     -webkit-touch-callout: none;
     margin: 0;
-    scroll-behavior: smooth;
 }
 
 img {
