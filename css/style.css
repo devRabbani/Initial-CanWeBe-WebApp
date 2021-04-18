@@ -812,6 +812,7 @@ rcard p {
     border: 4px solid #02b3e4;
     cursor: pointer;
     z-index: 9
+    transition : all=0.4;
 }
 
 .team h4 {
