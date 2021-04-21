@@ -781,7 +781,7 @@ rcard p {
     height: 80%;
     background-image: url(img/pent.svg);
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     bottom: 2%
 }
 
@@ -811,8 +811,7 @@ rcard p {
     box-shadow: 5px 5px 9px #bebebe;
     border: 4px solid #02b3e4;
     cursor: pointer;
-    z-index: 9
-    transition : all=0.4;
+    transition: all 0.7s;
 }
 
 .team h4 {
